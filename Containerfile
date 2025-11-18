@@ -17,7 +17,7 @@ RUN apt-get install -y curl
 RUN apt-get install -y sudo
 RUN curl https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh | bash
 
-ENV PICO_SDK_PATH="/project/pico-sdk"
-
+# ENV PICO_SDK_PATH="/project/pico-sdk/"
+ENV PICO_PLATFORM="rp2350"
 
 ENTRYPOINT ["bash"] # Useful for debugging
