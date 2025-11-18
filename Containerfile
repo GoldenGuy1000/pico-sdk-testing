@@ -19,5 +19,3 @@ RUN curl https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_se
 
 # ENV PICO_SDK_PATH="/project/pico-sdk/"
 ENV PICO_PLATFORM="rp2350"
-
-ENTRYPOINT ["bash"] # Useful for debugging
